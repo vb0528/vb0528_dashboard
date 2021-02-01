@@ -1,0 +1,24 @@
+.ha {
+    animation: text 3s 1;
+  }
+
+
+.btn:hover{
+    color:rgb(104, 77, 4);
+}
+
+@keyframes text{
+    0%{
+        color:black;
+        
+    }
+    30%{
+
+        letter-spacing: 25px;
+        
+    }
+    85%{
+        letter-spacing: 8px;
+       
+    }
+}
